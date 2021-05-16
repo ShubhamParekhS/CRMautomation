@@ -8,12 +8,38 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">79,971</td><td></td><td></td></tr>
+<tr><th colspan="8">FREE CRM Application Test Automation Test Suite</th></tr>
+<tr><td><a href="#t0">Free CRM App Test Cases</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">211,413</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.freecrm.qa.testcases.ContactsPageTest</td><td><a href="#m0">createNewContact</a></td><td rowspan="1">1621162339362</td><td rowspan="1">14662</td></tr><tr class="passedeven"><td><a href="#m1">verifyContactPageLabel</a></td><td rowspan="1">1621162304165</td><td rowspan="1">212</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FREE CRM Application Test Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Free CRM App Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.freecrm.qa.testcases.ContactsPageTest</td><td><a href="#m0">createNewContact</a></td><td rowspan="1">1621178332039</td><td rowspan="1">7357</td></tr><tr><th colspan="4">Free CRM App Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.freecrm.qa.testcases.ContactsPageTest</td><td><a href="#m1">verifyContactPageLabel</a></td><td rowspan="1">1621178304861</td><td rowspan="1">147</td></tr><tr class="passedodd"><td rowspan="3">com.freecrm.qa.testcases.HomePageTest</td><td><a href="#m2">verifyContactLink</a></td><td rowspan="1">1621178272518</td><td rowspan="1">2753</td></tr><tr class="passedodd"><td><a href="#m3">verifyHomePageTitleTest</a></td><td rowspan="1">1621178215666</td><td rowspan="1">25</td></tr><tr class="passedodd"><td><a href="#m4">verifyUserName</a></td><td rowspan="1">1621178239599</td><td rowspan="1">488</td></tr><tr class="passedeven"><td rowspan="3">com.freecrm.qa.testcases.LoginPageTest</td><td><a href="#m5">crmLogo</a></td><td rowspan="1">1621178163347</td><td rowspan="1">226</td></tr><tr class="passedeven"><td><a href="#m6">login</a></td><td rowspan="1">1621178178402</td><td rowspan="1">11164</td></tr><tr class="passedeven"><td><a href="#m7">loginPageTitle</a></td><td rowspan="1">1621178146717</td><td rowspan="1">49</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.freecrm.qa.testcases.ContactsPageTest#createNewContact</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Free CRM App Test Cases</h2><h3 id="m0">com.freecrm.qa.testcases.ContactsPageTest#createNewContact</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Save&quot; class=&quot;button&quot;&gt; is not clickable at point (662, 158). Other element would receive the click: &lt;a href=&quot;https://classic.freecrm.com/system/index.cfm?action=email&amp;amp;sub=template&amp;amp;edit=1&quot; title=&quot;...&quot;&gt;Email Templates&lt;/a&gt;
+  (Session info: chrome=90.0.4430.212)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QD2UUQP&apos;, ip: &apos;192.168.43.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\SHUBHAM\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62115}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e71e2ecc5d3da79c836a7d86b0f60d9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at com.freecrm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:52)
+	at com.freecrm.qa.testcases.ContactsPageTest.createNewContact(ContactsPageTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.freecrm.qa.testcases.ContactsPageTest#verifyContactPageLabel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.freecrm.qa.testcases.HomePageTest#verifyContactLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.freecrm.qa.testcases.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.freecrm.qa.testcases.HomePageTest#verifyUserName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.freecrm.qa.testcases.LoginPageTest#crmLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.freecrm.qa.testcases.LoginPageTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.freecrm.qa.testcases.LoginPageTest#loginPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
